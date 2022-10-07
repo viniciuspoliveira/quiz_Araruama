@@ -15,7 +15,6 @@
 		5018259A28EB7D3B00B50E7E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5018259928EB7D3B00B50E7E /* Question.swift */; };
 		5018259C28EB7D5200B50E7E /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5018259B28EB7D5200B50E7E /* QuizBrain.swift */; };
 		5029F5B328EFA67E00D93790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5029F5B228EFA67E00D93790 /* Assets.xcassets */; };
-		5029F5B528F09C8300D93790 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5029F5B428F09C8300D93790 /* alarm_sound.mp3 */; };
 		5029F5B728F09D4400D93790 /* final.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5029F5B628F09D4400D93790 /* final.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 		5018259928EB7D3B00B50E7E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		5018259B28EB7D5200B50E7E /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 		5029F5B228EFA67E00D93790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5029F5B428F09C8300D93790 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 		5029F5B628F09D4400D93790 /* final.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = final.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +70,6 @@
 				5018258928EB7CC400B50E7E /* LaunchScreen.storyboard */,
 				5018258C28EB7CC400B50E7E /* Info.plist */,
 				5029F5B228EFA67E00D93790 /* Assets.xcassets */,
-				5029F5B428F09C8300D93790 /* alarm_sound.mp3 */,
 				5029F5B628F09D4400D93790 /* final.mp3 */,
 			);
 			path = quiz.vida.araruama;
@@ -164,7 +161,6 @@
 				5029F5B728F09D4400D93790 /* final.mp3 in Resources */,
 				5018258B28EB7CC400B50E7E /* LaunchScreen.storyboard in Resources */,
 				5029F5B328EFA67E00D93790 /* Assets.xcassets in Resources */,
-				5029F5B528F09C8300D93790 /* alarm_sound.mp3 in Resources */,
 				5018259328EB7CE100B50E7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

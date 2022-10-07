@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     @IBAction func restartButton(_ sender: UIButton) {
         
+        player?.stop()
         updateUI()
         
     }
@@ -59,8 +60,8 @@ class ViewController: UIViewController {
  
     }
     
-    @objc func updateUI(){
-        if quizBrain.questionNumber > 10  && quizBrain.getscore() < 5{ //se usuario
+    @objc func updateUI(){ //condicional verificar score do usuario e tocar som diferente
+        if quizBrain.questionNumber > 10  && quizBrain.getscore() < 5{
             progressBar.progress = 0.0
             scoreLabel.text = "Placar: \(quizBrain.getscore())"
             questionLabel.text = "Placar total: \(quizBrain.getscore())! \n\nIsso quer dizer que você não conhece bem a vida de ninguem que você ama. MELHORE!"
@@ -76,7 +77,7 @@ class ViewController: UIViewController {
             
             
             
-            
+            //condicional para verificar score do usuario e tocar som
         }   else if quizBrain.questionNumber > 10 && quizBrain.getscore() > 5{
             progressBar.progress = 0.0
             scoreLabel.text = "Placar: \(quizBrain.getscore())"
