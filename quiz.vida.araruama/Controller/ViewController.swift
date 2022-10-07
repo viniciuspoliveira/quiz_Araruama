@@ -60,10 +60,10 @@ class ViewController: UIViewController {
     }
     
     @objc func updateUI(){
-        if quizBrain.questionNumber > 10{
+        if quizBrain.questionNumber > 10  && quizBrain.getscore() < 5{ //se usuario
             progressBar.progress = 0.0
             scoreLabel.text = "Placar: \(quizBrain.getscore())"
-            questionLabel.text = "Placar total: \(quizBrain.getscore())! Isso quer dizer que você não conhece bem a vida de ninguem que você ama. MELHORE!"
+            questionLabel.text = "Placar total: \(quizBrain.getscore())! \n\nIsso quer dizer que você não conhece bem a vida de ninguem que você ama. MELHORE!"
             let url = Bundle.main.url(forResource: "final", withExtension: "mp3")
             player = try! AVAudioPlayer(contentsOf: url!)
             player?.play()
@@ -76,7 +76,23 @@ class ViewController: UIViewController {
             
             
             
+            
+        }   else if quizBrain.questionNumber > 10 && quizBrain.getscore() > 5{
+            progressBar.progress = 0.0
+            scoreLabel.text = "Placar: \(quizBrain.getscore())"
+            questionLabel.text = "Placar total: \(quizBrain.getscore())! \n\nParábens! Você conhece muito bem o pessoal da familia MARQUES"
+            let url = Bundle.main.url(forResource: "final", withExtension: "mp3")
+            player = try! AVAudioPlayer(contentsOf: url!)
+            player?.play()
+            trueButton.isHidden = true
+            falseButton.isHidden = true
+            trueButton.backgroundColor = UIColor.clear
+            falseButton.backgroundColor = UIColor.clear
+            restartButton.isHidden = false
+            
+            
         } else {
+            
             
             progressBar.progress = quizBrain.getProgress()
             questionLabel.text = quizBrain.getQuestionText()
