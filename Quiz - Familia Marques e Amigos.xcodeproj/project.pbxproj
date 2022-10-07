@@ -12,22 +12,22 @@
 		5018258328EB7CC200B50E7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5018258228EB7CC200B50E7E /* ViewController.swift */; };
 		5018258B28EB7CC400B50E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5018258928EB7CC400B50E7E /* LaunchScreen.storyboard */; };
 		5018259328EB7CE100B50E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5018259228EB7CE100B50E7E /* Main.storyboard */; };
-		5018259528EB7CEB00B50E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5018259428EB7CEA00B50E7E /* Assets.xcassets */; };
 		5018259A28EB7D3B00B50E7E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5018259928EB7D3B00B50E7E /* Question.swift */; };
 		5018259C28EB7D5200B50E7E /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5018259B28EB7D5200B50E7E /* QuizBrain.swift */; };
+		5029F5B328EFA67E00D93790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5029F5B228EFA67E00D93790 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5018257B28EB7CC200B50E7E /* quiz.vida.araruama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quiz.vida.araruama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5018257B28EB7CC200B50E7E /* Quiz - Familia Marques e Amigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz - Familia Marques e Amigos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5018257E28EB7CC200B50E7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5018258028EB7CC200B50E7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5018258228EB7CC200B50E7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5018258A28EB7CC400B50E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5018258C28EB7CC400B50E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5018259228EB7CE100B50E7E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		5018259428EB7CEA00B50E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Quizzler-iOS132/Quizzler-iOS13/Assets.xcassets"; sourceTree = "<group>"; };
 		5018259928EB7D3B00B50E7E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		5018259B28EB7D5200B50E7E /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
+		5029F5B228EFA67E00D93790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 		5018257C28EB7CC200B50E7E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5018257B28EB7CC200B50E7E /* quiz.vida.araruama.app */,
+				5018257B28EB7CC200B50E7E /* Quiz - Familia Marques e Amigos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,7 +67,7 @@
 				5018259628EB7D0900B50E7E /* Controller */,
 				5018258928EB7CC400B50E7E /* LaunchScreen.storyboard */,
 				5018258C28EB7CC400B50E7E /* Info.plist */,
-				5018259428EB7CEA00B50E7E /* Assets.xcassets */,
+				5029F5B228EFA67E00D93790 /* Assets.xcassets */,
 			);
 			path = quiz.vida.araruama;
 			sourceTree = "<group>";
@@ -75,7 +75,7 @@
 		5018259628EB7D0900B50E7E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5018259228EB7CE100B50E7E /* Main.storyboard */,
+				5018258228EB7CC200B50E7E /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -83,7 +83,7 @@
 		5018259728EB7D1500B50E7E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5018258228EB7CC200B50E7E /* ViewController.swift */,
+				5018259228EB7CE100B50E7E /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -100,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5018257A28EB7CC200B50E7E /* quiz.vida.araruama */ = {
+		5018257A28EB7CC200B50E7E /* Quiz - Familia Marques e Amigos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5018258F28EB7CC400B50E7E /* Build configuration list for PBXNativeTarget "quiz.vida.araruama" */;
+			buildConfigurationList = 5018258F28EB7CC400B50E7E /* Build configuration list for PBXNativeTarget "Quiz - Familia Marques e Amigos" */;
 			buildPhases = (
 				5018257728EB7CC200B50E7E /* Sources */,
 				5018257828EB7CC200B50E7E /* Frameworks */,
@@ -112,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = quiz.vida.araruama;
+			name = "Quiz - Familia Marques e Amigos";
 			productName = quiz.vida.araruama;
-			productReference = 5018257B28EB7CC200B50E7E /* quiz.vida.araruama.app */;
+			productReference = 5018257B28EB7CC200B50E7E /* Quiz - Familia Marques e Amigos.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5018257628EB7CC200B50E7E /* Build configuration list for PBXProject "quiz.vida.araruama" */;
+			buildConfigurationList = 5018257628EB7CC200B50E7E /* Build configuration list for PBXProject "Quiz - Familia Marques e Amigos" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5018257A28EB7CC200B50E7E /* quiz.vida.araruama */,
+				5018257A28EB7CC200B50E7E /* Quiz - Familia Marques e Amigos */,
 			);
 		};
 /* End PBXProject section */
@@ -156,8 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5018258B28EB7CC400B50E7E /* LaunchScreen.storyboard in Resources */,
+				5029F5B328EFA67E00D93790 /* Assets.xcassets in Resources */,
 				5018259328EB7CE100B50E7E /* Main.storyboard in Resources */,
-				5018259528EB7CEB00B50E7E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +314,8 @@
 				DEVELOPMENT_TEAM = L7LQ6FGAN3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = quiz.vida.araruama/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quiz - Familia Marques e Amigos";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -342,6 +344,8 @@
 				DEVELOPMENT_TEAM = L7LQ6FGAN3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = quiz.vida.araruama/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quiz - Familia Marques e Amigos";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -363,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5018257628EB7CC200B50E7E /* Build configuration list for PBXProject "quiz.vida.araruama" */ = {
+		5018257628EB7CC200B50E7E /* Build configuration list for PBXProject "Quiz - Familia Marques e Amigos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5018258D28EB7CC400B50E7E /* Debug */,
@@ -372,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5018258F28EB7CC400B50E7E /* Build configuration list for PBXNativeTarget "quiz.vida.araruama" */ = {
+		5018258F28EB7CC400B50E7E /* Build configuration list for PBXNativeTarget "Quiz - Familia Marques e Amigos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5018259028EB7CC400B50E7E /* Debug */,
