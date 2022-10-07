@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     
@@ -24,6 +25,7 @@ class ViewController: UIViewController {
     }
     
     var quizBrain = QuizBrain()
+    var player: AVAudioPlayer?
  
     
     
@@ -62,6 +64,9 @@ class ViewController: UIViewController {
             progressBar.progress = 0.0
             scoreLabel.text = "Placar: \(quizBrain.getscore())"
             questionLabel.text = "Placar total: \(quizBrain.getscore())! Isso quer dizer que você não conhece bem a vida de ninguem que você ama. MELHORE!"
+            let url = Bundle.main.url(forResource: "final", withExtension: "mp3")
+            player = try! AVAudioPlayer(contentsOf: url!)
+            player?.play()
             trueButton.isHidden = true
             falseButton.isHidden = true
             trueButton.backgroundColor = UIColor.clear
