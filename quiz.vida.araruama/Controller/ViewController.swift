@@ -60,12 +60,12 @@ class ViewController: UIViewController {
  
     }
     
-    @objc func updateUI(){ //condicional verificar score do usuario e tocar som diferente
+    @objc func updateUI(){ //condicional verificar score do usuario e tocar som da derrota
         if quizBrain.questionNumber > 10  && quizBrain.getscore() < 5{
             progressBar.progress = 0.0
             scoreLabel.text = "Placar: \(quizBrain.getscore())"
-            questionLabel.text = "Placar total: \(quizBrain.getscore())! \n\nIsso quer dizer que você não conhece bem a vida de ninguem que você ama. MELHORE!"
-            let url = Bundle.main.url(forResource: "final", withExtension: "mp3")
+            questionLabel.text = "Placar total: \(quizBrain.getscore()) ! \n\nIsso quer dizer que você não conhece bem a vida de ninguem que você ama. \n\nMELHORE!"
+            let url = Bundle.main.url(forResource: "fail", withExtension: "mp3")
             player = try! AVAudioPlayer(contentsOf: url!)
             player?.play()
             trueButton.isHidden = true
@@ -77,11 +77,11 @@ class ViewController: UIViewController {
             
             
             
-            //condicional para verificar score do usuario e tocar som
+            //condicional para verificar score do usuario e reproduzir audio da vitória
         }   else if quizBrain.questionNumber > 10 && quizBrain.getscore() > 5{
             progressBar.progress = 0.0
             scoreLabel.text = "Placar: \(quizBrain.getscore())"
-            questionLabel.text = "Placar total: \(quizBrain.getscore())! \n\nParábens! Você conhece muito bem o pessoal da familia MARQUES"
+            questionLabel.text = "Placar total: \(quizBrain.getscore())! \n\nParábens! Você conhece muito bem o pessoal da família MARQUES"
             let url = Bundle.main.url(forResource: "final", withExtension: "mp3")
             player = try! AVAudioPlayer(contentsOf: url!)
             player?.play()

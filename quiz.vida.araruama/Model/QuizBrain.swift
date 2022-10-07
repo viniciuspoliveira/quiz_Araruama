@@ -10,18 +10,18 @@ import Foundation
 struct QuizBrain {
     
     let quiz = [
-        Question(q: "O Guilherme tem 3 filhos.", a: "True"),
-        Question(q: "A barbara quer ter filhos.", a: "True"),
+        Question(q: "Araruama é a terra do Lazer", a: "True"),
+        Question(q: "A Barbara quer ter filhos.", a: "false"),
         Question(q: "Vinicius é um cara bem legal", a: "True"),
         Question(q: "Rafael nunca fez merda", a: "False"),
-        Question(q: "Tia Ivone curte Fluminense", a: "True"),
-        Question(q: "Guilherme mijou na cama até os 14 anos de idade", a: "True"),
+        Question(q: "Tia Ivone dorme com pé sujo", a: "True"),
+        Question(q: "Guilherme é um cavalheiro", a: "True"),
         Question(q: "Barbara ganhou na mega e não falou pra ninguem", a: "True"),
-        Question(q: "Jacaré no seco anda?!", a: "True"),
-        Question(q: "Maior time do mundo é o Gremio", a: "False"),
+        Question(q: "Guilherme, Rafael e Vinicius usavam a piscina do vizinho", a: "True"),
+        Question(q: "Rafael se assustava com facilidade", a: "True"),
         Question(q: "Melhor console da História é o Super Nintendo", a: "True"),
-        Question(q: "Guilherme tem medo de altura", a: "False"),
-        Question(q: "Nome do cachorro da vizinha é Matheus", a: "True")
+        Question(q: "Guilherme ta ficando careca", a: "True"),
+        Question(q: "Na porrada Vinicius ganha do Rafael", a: "True")
         
     ]
     
